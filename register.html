@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BMET Trainee Registration</title>
+<style>
+body{font-family:Arial;background:#f4f6f9;}
+.container{width:750px;margin:auto;background:white;padding:30px;border-radius:10px;box-shadow:0 0 10px #ccc;}
+input,select,textarea{width:100%;padding:10px;margin:8px 0;}
+button{background:#28a745;color:white;padding:12px;border:none;border-radius:5px;width:100%;font-size:16px;}
+.section{margin-top:20px;font-weight:bold;}
+</style>
+</head>
+<body>
+<div class="container">
+<h2>BMET Trainee Registration (EIM)</h2>
+
+<div class="section">Personal Information</div>
+<input placeholder="নাম (বাংলা)">
+<input placeholder="Name (English)">
+<input placeholder="বাবার নাম (বাংলা)">
+<input placeholder="Father Name (English)">
+<input placeholder="মাতার নাম (বাংলা)">
+<input placeholder="Mother Name (English)">
+<select>
+<option>Gender</option>
+<option>Male</option>
+<option>Female</option>
+</select>
+<input type="date" placeholder="Date of Birth">
+<input placeholder="NID / Birth Registration Number">
+
+<div class="section">Contact Information</div>
+<input placeholder="Mobile Number">
+<input placeholder="Email Address">
+
+<div class="section">Address</div>
+<select>
+<option>Division</option>
+<option>Dhaka</option>
+<option>Khulna</option>
+<option>Rajshahi</option>
+<option>Chittagong</option>
+<option>Barisal</option>
+<option>Sylhet</option>
+<option>Rangpur</option>
+<option>Mymensingh</option>
+</select>
+<input placeholder="District">
+<input placeholder="Upazila">
+<textarea placeholder="Full Address"></textarea>
+
+<div class="section">Education</div>
+<input placeholder="Highest Qualification">
+
+<div class="section">Trade</div>
+<input value="Electrical Installation and Maintenance (EIM)" readonly>
+
+<div class="section">Document Upload</div>
+<label>NID / Birth Certificate</label>
+<input type="file">
+<label>Photo (300x300)</label>
+<input type="file">
+<label>Signature (300x80)</label>
+<input type="file">
+
+<br><br>
+<button onclick="alert('Registration Submitted')">Complete Registration</button>
+</div>
+</body>
+</html>
